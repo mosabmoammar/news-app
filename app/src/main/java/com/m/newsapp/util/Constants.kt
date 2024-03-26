@@ -1,0 +1,17 @@
+package com.m.newsapp.util
+
+import com.m.newsapp.BuildConfig
+
+object Constants {
+
+    const val USER_SETTINGS = "userSettings"
+
+    const val APP_ENTRY = "appEntry"
+
+    const val API_KEY = BuildConfig.API_KEY
+
+    val BASE_URL = "https://newsapi.org/v2/"
+
+    const val NEWS_DATABASE_NAME = "news_db"
+
+}
